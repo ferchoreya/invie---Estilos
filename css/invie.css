@@ -1,0 +1,49 @@
+/*Sintaxis de selectores
+tipo de selector
+{
+	propiedad: valor;
+	propiedad_2: valor;
+}*/
+
+/*Selector UNIVERSAL*/
+*
+{
+	border: 1px solid blue;
+	margin: 10px;
+}
+/*Selector de ETIQUETA*/
+header
+{
+	background: #97ec0d;
+}
+section
+{
+background: rgb(34, 210, 249);
+}
+/*Selector DESCENDENTE*/
+article h3
+{
+	color: green;
+}
+/*Selector de Clase*/
+.title-a
+{
+	background: rgb(247, 82, 191);
+}
+.title-b
+{
+	background: rgb(226, 224, 9);
+}
+/*Selector de ID*/
+#header
+{
+	border: 3px solid black;
+}
+#portada
+{
+	border: 3px solid orange;
+}
+#guitarras
+{
+	border: 3px solid #c00fe4;
+}
